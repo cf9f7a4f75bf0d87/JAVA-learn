@@ -14,9 +14,9 @@
 * 1 score = 1 RMB
 * No Cash
 * Book Only
-  I can send a equivalent book to you if you have enough score 
+* I can send a equivalent book to you if you have enough score 
 * I will support this until run out of money or this lession ends
-  Total M: 1000
+* Total M: 1000
 * Please leave your email, so we can communicate 
 
 -----------
