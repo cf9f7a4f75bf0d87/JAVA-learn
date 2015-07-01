@@ -8,21 +8,17 @@
 * lession  : J2ee
 * teacher  : Teacher Jiang
 
-## 1 Bug, 1 RMB 
-* if you point out errors or something inproper in my note ,pull a request to me 
-* if you are right, and I will record you 1 score 
-* 1 score = 1 RMB
-* No Cash
-* Book Only
-* I can send a equivalent book to you if you have enough score 
-* I will support this until run out of money or this lession ends
-* Total M: 1000
-* Please leave your email, so we can communicate 
-
 -----------
-* 找一个bug ,记一分，相当于1 RMB ;攒够数目后，我买书给你
+* 找一个bug ,记一分，相当于1 RMB ;攒够数目后，我买书给你 (暂时只能买书 --)
 * 项目支持，直到用完现有的MONEY或者结课。。
 * 当然啦 ，记得下邮箱或者电话哦
+
+## 目录结构
+| 文件夹     | 内容                           |
+|------------|--------------------------------|
+| tool       | 封装一些简单函数 ，供其他类调用|
+| lession-xx | 课程笔记note 笔记相关代码note.java 作业lessionxx.java|
+| big        | 大作业                         |
 
 --------------
 * 规则不完善，会一点点修改，欢迎提建议哈。。
