@@ -35,8 +35,8 @@ class Out{
 * 09  具体一点的生成方法
 	 *  额外创建类， 实现Runnable 接口， 生成 Thread
 	 *  额外创建类， 继承Thread 类， 重写run 方法, 之后直接new 即可
-   *  创建匿名类， 实现Runnable 接口， 成成 Thread
-   *  创建匿名类， 派生自Thread， 重写run 方法， 之后直接使用
+	 *  创建匿名类， 实现Runnable 接口， 成成 Thread
+   	 *  创建匿名类， 派生自Thread， 重写run 方法， 之后直接使用
 	 *  注： 12,34 仅仅在语句书写上不同，本质一样(吧..)
 * 10  一个线程对象只能调用一次start, 可以多次调用run， start一次后就不能用了
 * 11  Thread.yield() 本次让出cpu时间片， 由运行-> 就绪，等待下次调度
