@@ -1,8 +1,7 @@
 ## java learn note 11
 
 *	01	Properties -> Hashtable -> Dictionary -> Object; 主要用来读取Java 配置文件；内容为名值对，只能放文本
-* 02	GetProperty(String key) 用指定的键在此属性列表中搜索属性
-* 03	GetProperty(String key,String value) 同上,但查不到时返回默认值(value)
+* 02	GetProperty(String key) 用指定的键在此属性列表中搜索属性;GetProperty(String key,String value) 同,但查不到时返回默认值(value)
 *	03	load(InputStream inStream) 从输入流中读取属性列表
 * 04	SetProperty(String key,String value) 设置键值对
 * 05	store(OutputStream, String comments) 将键值对写到指定的文件
@@ -14,6 +13,7 @@
 
 * 09	Beans.instantiate(ClassLoader cls,String beanName);用来创建javabean,功能跟new 差不多,性能上要差一些
 > 这种方法在文件系统搜索那个对象的一个序列化版本,如果找到序列化对象,则装入它,如果找不到它,则创建它
+> 效率不高,还用这个方法,是因为 使用new  的话需要知道类的类型, 不知道的情况下,只能用这个(性能换灵活性)
 
 *	10	设计模式: 简单工厂模式
 	*		解决的问题主要是如何去实例化一个合适的对象

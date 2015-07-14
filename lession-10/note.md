@@ -10,3 +10,4 @@
 * 02	各种关系的强弱顺序: 泛化 = 实现 > 组合 > 聚合 > 关联 > 依赖
 * 03	GUI 直接学`javafx`[click here](http://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm#JFXST804)
 * 04	MVC		M是指数据模型,V是指用户界面,C是指控制器；	
+* 05	(未完)	
