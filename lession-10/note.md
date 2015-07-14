@@ -8,4 +8,5 @@
 	*		组合(Compositon) 是整体与部分的关系,但部分不能离开整体而单独存在；带实心的菱形的实线,菱形指向整体
 	*		依赖(Dependency) 是一种使用的关系,即一个类需要另一个类的协助,所以尽量不要使用双向的互相依赖；带箭头的虚线,指向被使用者
 * 02	各种关系的强弱顺序: 泛化 = 实现 > 组合 > 聚合 > 关联 > 依赖
-* 03	
+* 03	GUI 直接学`javafx`[click here](http://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm#JFXST804)
+* 04	MVC		M是指数据模型,V是指用户界面,C是指控制器；	
