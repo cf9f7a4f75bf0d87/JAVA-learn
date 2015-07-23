@@ -9,7 +9,7 @@
       D:/java/eclipse32/workspace/jbpmtest3/bin/aaa.b
 	*		相对于classpath的相对路径
       如：相对于 file:/D:/java/eclipse32/workspace/jbpmtest3/bin/这个路径的相对路径。其中，bin是本项目的classpath。所有的Java源文件编译后的.class文件复制到这个目录中。
-  *   相对于当前用户目录的相对路径
+	*   相对于当前用户目录的相对路径
       就是相对于System.getProperty("user.dir")返回的路径。
 >     对于一般项目，这是项目的根路径。对于JavaEE服务器，这可能是服务器的某个路径。这个并没有统一的规范！
       所以，绝对不要使用“相对于当前用户目录的相对路径”。然而：
@@ -19,7 +19,7 @@
 * 04	File中getCanonicalPath() 完成相对路径到绝对路径的转换
 > 这个路径的文件可以是不存在的，这里只是完成一个转换
 
-*	05 	File .length() 返回一个long型的数据 返回字节数
+* 05 	File .length() 返回一个long型的数据 返回字节数
 * 06	File 读取操作文件属性，但对其内容无能为力
 * 07 	RandomAccessFile 用于对文件随机读写 .它是一个独立的类，直接继承了Object. 当然，灵活的代价是开销略大而且较慢.
 > RandomAccessFile的绝大多数功能，但不是全部，已经被JDK 1.4的nio的"内存映射文件(memory-mapped files)"给取代了，你该考虑一下是不是用"内存映射文件"来代替RandomAccessFile了
